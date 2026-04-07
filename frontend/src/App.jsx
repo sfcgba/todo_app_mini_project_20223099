@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = '/api/todos';
+const API_URL = 'https://backend-cyan-six-73.vercel.app/api/todos';
 
 function App() {
   const [todos, setTodos] = useState([]);
